@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1 {
+    margin: 15px;
+}
+
+input {
+    outline: 0;
+    padding: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#search {
+    margin: 0 auto 75px;
+}
+
+ul {
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: end;
+    margin-right: 44%;
+}
+
+li {
+    margin: 5px auto;
+    width: 100%;
+}
+
+li::marker {
+    color: royalblue;
+}
+
+button {
+    cursor: pointer;
+    border: 2px solid;
+    padding: 5px 15px;
+    font-size: 25px;
+    outline: none;
+    margin-left: 2%;
+}
+
+li button {
+    color: red;
+    background: transparent;
+    border: none;
+}
